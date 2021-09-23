@@ -1,0 +1,38 @@
+configuration {
+  show-icons: true;
+  fake-transparency: false;
+}
+
+* {
+  bg: #00000066;
+}
+
+* {
+  background-color: rgba(0,0,0,0);
+  font: "Hack Nerd Font Mono 14";
+}
+
+window {
+  background-color: @bg;
+  border: 0;
+  padding: 30;
+  width: 30%;
+  height: 50%;
+  transparency: "real";
+}
+
+entry {
+  padding: 8 12 8 12;
+  text-color: #FFFFFF;
+  font:"Hack Nerd Font Mono 10";
+}
+
+element-text {
+  text-color: #FFFFFF;
+}
+
+element selected {
+  background-color: @bg;
+  border-color: #FFFFFF0A;
+  text-color: #000000;
+}
